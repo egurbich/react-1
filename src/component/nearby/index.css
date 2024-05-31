@@ -1,0 +1,9 @@
+.nearby {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nearby__link {
+  color: #000000;
+}

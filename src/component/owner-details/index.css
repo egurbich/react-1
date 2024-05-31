@@ -1,0 +1,53 @@
+.owner-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.owner-details__header {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.owner-details__text {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.owner-details__image {
+  border-radius: 50%;
+}
+
+.owner-details__items {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.owner-details__sub-block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.owner-details__sub-block {
+  display: flex;
+  gap: 30px;
+}
+
+.owner-details__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.owner-details__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}

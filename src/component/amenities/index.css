@@ -1,0 +1,7 @@
+
+
+.property-details__list {
+  display: grid;
+  gap: 12px;
+  padding-top: 15px;
+}

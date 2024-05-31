@@ -1,0 +1,18 @@
+.list-item {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.list-item__title {
+  font-weight: 700;
+}
+
+.list-item__block {
+  
+  padding: 10px 0 5px 0;
+  display: inline-flex;
+}
+
+.list-item__content {
+  display: flex;
+  flex-direction: row;
+}
